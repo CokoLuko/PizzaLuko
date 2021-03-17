@@ -1,8 +1,8 @@
 <?php
 
 $serverDb = "localhost";
-$prihMenoDb = "root";
-$prihHesloDb = "vertrigo";
+$prihMenoDb = "luko";
+$prihHesloDb = "koluko";
 $menoDb = "luko_pizzeria";
 
 // Create connection
