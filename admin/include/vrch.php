@@ -85,7 +85,7 @@ $zak_funkcie = new l_zakladne_funkcie;
         <div class="collapse navbar-collapse" id="navbar1">
             <ul class="navbar-nav ml-auto" id="menuNavigacia">
                 <li class="nav-item" v-for="web in menu">
-                    <a class="nav-link" :href="'../../theme/' + web.url">{{ web.nazov }}</a>
+                    <a class="nav-link" :href="'../../theme/' + web.url">{{ web.nazov }} Ježiš</a>
                 </li>
             </ul>
         </div>
