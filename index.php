@@ -1,4 +1,4 @@
 <?php
 	header('Location: theme');
-	// Ahoj - JEŽIŠ ŽIJE
+	// Ahoj - JEŽIŠ ŽIJE, Boh je MOCNÝ
 ?>
