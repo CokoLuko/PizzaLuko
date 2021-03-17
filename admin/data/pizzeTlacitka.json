@@ -1,0 +1,22 @@
+[
+	{
+		"ikona":"bi-bag-check",
+		"nazov":"Publikované",
+		"akcia":"publikovane"
+	},
+	{
+		"ikona":"bi-eye",
+		"nazov":"Náhľad",
+		"akcia":"nahlad"
+	},
+	{
+		"ikona":"bi-pencil",
+		"nazov":"Upraviť",
+		"akcia":"upravit"
+	},
+	{
+		"ikona":"bi-x-circle",
+		"nazov":"Zmazať",
+		"akcia":"zmazat"
+	}
+]

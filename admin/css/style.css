@@ -1,0 +1,370 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	scroll-padding-top: 69px;
+}
+body {
+	font-family: 'Poppins', 'Arial', sans-serif;
+	font-size: 0.95em;
+	line-height: 1.8;
+	font-weight: 300;
+	color: grey;
+}
+
+h1, h2, h3, h4, h5 {
+	color: #fff;
+	font-weight: 400;
+	font-family: 'Josefin Sans', 'Arial', sans-serif;
+}
+.a {
+	font-family: 'Nothing You Could Do', cursive;
+	color: #fac564;
+}
+
+#nadpis {
+	font-family: 'Nothing You Could Do', cursive;
+	color: #fac564;
+}
+#kontakt {
+	background-color: black;
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+}
+#kontakt p {
+	margin: 0;
+}
+#kontakt span {
+	color: #fac564;
+}
+.jumbotron {
+	background-color: inherit;
+}
+.obrazok {
+	background-repeat: no-repeat;
+	height: 425px;
+	background-size: cover;
+	background-position: center;
+}
+.nadpisSekcie {
+	text-transform: uppercase;
+	color: white;
+}
+.nadpisSekcie span {
+	color: #fac564;
+}
+.posun1 {
+	padding-top: 50px;
+	margin-top: -50px;
+}
+.navbar-brand {
+	font-size: 1.5em;
+	line-height: 1;
+	font-family: 'Josefin Sans', 'Arial', sans-serif;	
+}
+nav {
+	background-color: #111111;
+}
+.navbar-nav .nav-item .nav-link {
+	font-size: 0.95em;
+	color: grey;
+	display: flex;
+	flex-direction: column;
+}
+.navbar-nav .nav-item .nav-link:hover {
+	color: grey;
+}
+.navbar-nav .nav-item .nav-link:after {
+	content: '';
+	height: 2px;
+	width: 100%;
+	background-color: grey;
+	transform: scale3d(0, 1, 1);
+	transition: transform 1s
+}
+.navbar-nav .nav-item .nav-link.active {
+	color: #fac564 !important;
+}
+.navbar-nav .nav-item .nav-link.active:after {
+	background-color: #fac564;
+	transform: scale3d(1, 1, 1);
+}
+.navbar-nav .nav-item .nav-link:hover:after {
+	background-color: grey;
+	transform: scale3d(1, 1, 1);
+}
+.navbar-nav .active .nav-link {
+	color: #fac564 !important;
+}
+.navbar-nav .active .nav-link:after {
+	content: '';
+	height: 2px;
+	width: 100%;
+	background-color: #fac564;
+	transform: scale3d(0, 1, 1);
+	transition: transform 1s
+}
+.navbar-nav .active .nav-link:hover:after {
+	background-color: #fac564;
+	transform: scale3d(1, 1, 1);
+}
+.navbar-brand small {
+	text-transform: uppercase;
+	font-size: 0.6em;
+	letter-spacing: 4px;
+	color: #fac564;
+}
+nav div a span {
+	color: #fac564;
+}
+.btn {
+	border-radius: 0;
+	font-size: 0.95em;
+	font-weight: 400;
+	color: #fac564;
+	border-color: #fac564; 
+}
+.btn:hover, .btn:active {
+	background-color: #fac564;
+	color: black;
+}
+.navbar-toggler {
+	border: 1px solid #fac564 !important;
+}
+/* Hlavicka */
+header {
+	background-color: black;
+}
+header div .icon {
+	color: #fac564;
+}
+/* Uvod */
+#uvod {
+	background-image: url("../img/bg_1.jpg");
+	height: 500px;
+}
+#uvod p {
+	color: white;
+}
+.pizzaImg {
+	height: 400px;
+	background-repeat: no-repeat;
+}
+/* Sluzby */
+#sluzby {
+	background-image: url("../img/food.png");
+	color: grey;
+}
+#sluzby h1, #sluzby h2 {
+	color: black;
+}
+#sluzby div .row div span {
+	border: 1px solid grey;
+	padding: 0 15px;
+}
+#sluzby div div span {
+	font-size: 64px;
+}
+.cierna {
+	background-color: #000;
+}
+.bg-stol {
+	background-image: url("../img/b3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.cena {
+	color: #fac564;
+}
+.pizza p {
+	padding-right: 0;
+	font-size: 0.8em;
+}
+
+
+
+
+
+
+
+
+
+.akesi-pozadie {
+	background: url(../img/bg_4.jpg) no-repeat fixed;
+	background-size: cover;
+}
+
+.btn-sirka-100 {
+	width: 100%;
+}
+
+.prihlasenie-zahlavie {
+	color: #262626;
+	font-size: 1.3em;
+}
+
+.card#card-prihlasenie {
+	border-radius: 3px;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+#card-prihlasenie .card-header {
+	background-color: #fac564;
+	font-weight: 600;
+	transition: 0.5s;
+}
+
+#card-prihlasenie .input-group-text {
+	background-color: #fac564;
+	border: 2px #fac564 solid;
+	transition: 0.5s;
+}
+
+#card-prihlasenie input.form-control {
+	border: 2px #fac564 solid;
+	transition: 0.5s;
+}
+
+#card-prihlasenie .ine-linky a {
+	color: grey;
+	font-size: 0.9em;
+}
+
+.chyba-border {
+	border: 2px #f00 solid !important;
+}
+
+.chyba-pozadie {
+	background-color: #f00 !important;
+	color: #fff;
+}
+
+.ok-border {
+	border: 2px #0f0 solid !important;
+}
+
+.ok-pozadie {
+	background-color: #0f0 !important;
+	color: #fff;
+}
+
+.chyba-hlaska {
+	color: #f00;
+}
+
+#footer-majtel {
+	color: #5f5;
+}
+
+footer {
+	font-size: 0.9em;
+}
+
+.praca {
+	background-color: #fff;
+}
+
+.profilovka {
+	border-radius: 50%;
+	width: 10em;
+	height: 10em;
+	overflow: hidden;
+	margin: auto;
+}
+
+.profilovka img {
+	width: 100%;
+	object-fit: cover;
+}
+
+.admin {
+	color: #fff;
+	background-color: rgba(100, 100, 100, 0.4);
+}
+
+.admin .admin-meno {
+	font-weight: bold;
+}
+
+.menu-bok a {
+	color: #fff;
+}
+
+.menu-bok button {
+	color: #fff;
+	background-color: #0000;
+	border: none;
+	width: 100%;
+}
+
+.menu-bok a:hover,
+.menu-bok button:hover {
+	color: #000;
+	background-color: #fac564;
+}
+
+.menu-bok a.aktivna {
+	color: #000;
+	background-color: #fac564;
+}
+
+.praca {
+	overflow: auto;
+}
+
+.cierne-text,
+.cierne-text h4 {
+	color: #000;
+}
+
+.denneMenu-pizze .p-popis {
+	font-size: 0.8em;
+	margin-top: -0.5em;
+	padding: 0;
+}
+
+.denneMenu-pizze .p-nazov-popis {
+	padding-top: 0.8em;
+	/*padding-bottom: 0.5em;*/
+}
+
+.denneMenu-pizze th {
+	padding-top: 1.5em;
+}
+
+.denneMenu-pizze .n {
+	display: inline-block;
+	margin: 0;
+}
+
+.denneMenu-pizze .n img {
+	width: 3.2em;
+	margin-top: -1.2em;
+	margin-bottom: -0.2em;
+	margin-right: 1em;
+}
+
+.denneMenu-pizze button {
+	background-color: #0000;
+	border: 1px solid #fac564;
+	margin-top: 1em;
+	padding: 0.5em;
+	padding-right: 0.7em;
+	padding-left: 0.7em;
+	font-size: 0.6em;
+}
+
+.denneMenu-pizze button:hover {
+	background-color: #fac564;
+}
+
+
+
+
+
+/*modal*/
+
+.bez-okraja {
+	border: none;
+}

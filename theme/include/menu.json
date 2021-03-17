@@ -1,0 +1,7 @@
+[
+	{"nazov":"Domov", "url":"domov"},
+	{"nazov":"Denné menu" , "url":"denneMenu"},
+	{"nazov":"Služby", "url":"sluzby"},
+	{"nazov":"O nás", "url":"oNas"},
+	{"nazov":"Kontakt", "url":"kontakt"}
+]

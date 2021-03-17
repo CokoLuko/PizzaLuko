@@ -1,0 +1,184 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	scroll-padding-top: 69px;
+}
+body {
+	font-family: 'Poppins', 'Arial', sans-serif;
+	font-size: 0.95em;
+	line-height: 1.8;
+	font-weight: 300;
+	color: grey;
+	background: url(../img/bg_4.jpg) no-repeat fixed;
+	background-size: cover;
+}
+
+h1, h2, h3 {
+	color: #fff;
+	font-weight: 400;
+	font-family: 'Josefin Sans', 'Arial', sans-serif;
+}
+.a {
+	font-family: 'Nothing You Could Do', cursive;
+	color: #fac564;
+}
+#nadpis {
+	font-family: 'Nothing You Could Do', cursive;
+	color: #fac564;
+}
+#kontakt {
+	background-color: black;
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+}
+#kontakt p {
+	margin: 0;
+}
+#kontakt span {
+	color: #fac564;
+}
+.jumbotron {
+	background-color: inherit;
+}
+.obrazok {
+	background-repeat: no-repeat;
+	height: 425px;
+	background-size: cover;
+	background-position: center;
+}
+.nadpisSekcie {
+	text-transform: uppercase;
+	color: white;
+}
+.nadpisSekcie span {
+	color: #fac564;
+}
+.posun1 {
+	padding-top: 50px;
+	margin-top: -50px;
+}
+.navbar-brand {
+	font-size: 1.5em;
+	line-height: 1;
+	font-family: 'Josefin Sans', 'Arial', sans-serif;	
+}
+nav {
+	background-color: #111111;
+}
+.navbar-nav .nav-item .nav-link {
+	font-size: 0.95em;
+	color: grey;
+	display: flex;
+	flex-direction: column;
+}
+.navbar-nav .nav-item .nav-link:hover {
+	color: grey;
+}
+.navbar-nav .nav-item .nav-link:after {
+	content: '';
+	height: 2px;
+	width: 100%;
+	background-color: grey;
+	transform: scale3d(0, 1, 1);
+	transition: transform 1s
+}
+.navbar-nav .nav-item .nav-link.active {
+	color: #fac564 !important;
+}
+.navbar-nav .nav-item .nav-link.active:after {
+	background-color: #fac564;
+	transform: scale3d(1, 1, 1);
+}
+.navbar-nav .nav-item .nav-link:hover:after {
+	background-color: grey;
+	transform: scale3d(1, 1, 1);
+}
+.navbar-nav .active .nav-link {
+	color: #fac564 !important;
+}
+.navbar-nav .active .nav-link:after {
+	content: '';
+	height: 2px;
+	width: 100%;
+	background-color: #fac564;
+	transform: scale3d(0, 1, 1);
+	transition: transform 1s
+}
+.navbar-nav .active .nav-link:hover:after {
+	background-color: #fac564;
+	transform: scale3d(1, 1, 1);
+}
+.navbar-brand small {
+	text-transform: uppercase;
+	font-size: 0.6em;
+	letter-spacing: 4px;
+	color: #fac564;
+}
+nav div a span {
+	color: #fac564;
+}
+.btn {
+	border-radius: 0;
+	font-size: 0.95em;
+	font-weight: 400;
+	color: #fac564;
+	border-color: #fac564; 
+}
+.btn:hover, .btn:active {
+	background-color: #fac564;
+	color: black;
+}
+.navbar-toggler {
+	border: 1px solid #fac564 !important;
+}
+/* Hlavicka */
+header {
+	background-color: black;
+}
+header div .icon {
+	color: #fac564;
+}
+/* Uvod */
+#uvod {
+	background-image: url("../img/bg_1.jpg");
+	height: 500px;
+}
+#uvod p {
+	color: white;
+}
+.pizzaImg {
+	height: 400px;
+	background-repeat: no-repeat;
+}
+/* Sluzby */
+#sluzby {
+	background-image: url("../img/food.png");
+	color: grey;
+}
+#sluzby h1, #sluzby h2 {
+	color: black;
+}
+#sluzby div .row div span {
+	border: 1px solid grey;
+	padding: 0 15px;
+}
+#sluzby div div span {
+	font-size: 64px;
+}
+.cierna {
+	background-color: rgba(0, 0, 0, 0.4);
+}
+.bg-stol {
+	background-image: url("../img/b3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.cena {
+	color: #fac564;
+}
+.pizza p {
+	padding-right: 0;
+	font-size: 0.8em;
+}

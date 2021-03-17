@@ -1,0 +1,5 @@
+Domov;domov
+Denné menu;denneMenu
+Služby;sluzby
+O nás;oNas
+Kontakt;kontakt
